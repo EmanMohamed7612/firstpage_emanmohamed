@@ -1,10 +1,122 @@
 <!DOCTYPE html>
 <html>
     <head>
-       <title>Hello world</title>
+       <title>Eman protofilio</title>
+ 
     </head>
   <body>
-     <h1>i am heading</h1>
-     <p>i am some content<p>
+    <h3>
+      <a href="#about">About</a> |
+      <a href="#skills">Skills</a> |
+      <a href="#experience">Experience</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#contact">Contact</a>
+    </h3>
+      <table border="1" width="100%" cellpadding="10">
+  <tr>
+    <td>
+      <h3>About Me</h3>
+      <p>Hello! My name is Eman Mohamed. I am a passionate Mobile development student learning Dart, OOP, and Flutter.</p>    
+      <p><i>"Learning never exhausts the mind." – Leonardo da Vinci</i></p>
+    </td>
+  </tr>
+</table>
+<br>
+<table border="1" width="100%" cellpadding="10">
+  <tr>
+    <td>
+<h2 id="info">Personal Info</h2>
+    <dl>
+      <dt>Name:</dt>
+      <dd>Eman Mohamed</dd>
+
+      <dt>Job Title:</dt>
+      <dd>Flutter Developer</dd>
+
+      <dt>Location:</dt>
+      <dd>Egypt</dd>
+    </dl>
+
+    </td>
+  </tr>
+</table>
+
+<br>
+<table border="1" width="100%" cellpadding="10">
+  <tr>
+    <td>
+      <h3>Technical Skills</h3>
+      <ul>
+       <li>Dart & Flutter</li>
+       <li>OOP</li>
+       <li>C++</li>
+       <li>Flutter</li>
+       <li>Problem Solving with Dart</li>
+ 
+      </ul>
+    </td>
+  </tr>
+</table>
+<br>
+   <table border="1" width="100%" cellpadding="10">
+  <tr>
+    <td>
+      <h3>My Projects</h3>
+      <h4>1. Tuko App</h4>
+      <p>This was my very first app using only Flutter.It help us to learn Japaness languge </p>
+<a href="project.html">View Project</a>
+<h4>2. Basket Ball App </h4>
+      <p>A simple page where it count number of goals to teams </p>
+   <h4>3.Tune App</h4>
+<p>Simple page to listen differnt tunes </p>
+<h4>4. News App (in progress)</h4>
+    </td>
+  </tr>
+</table>
+<br>
+<table border="1" width="100%" cellpadding="10">
+  <tr>
+    <td>
+      <h3>Experience</h3>
+     <p> 
+       <h4>&#127891; Mobile Developer Intern (2024)</h4>
+     </p>
+         <ul>
+       <li>Built real world flutter applications in proffessional internship environment</li>
+       <li>Worked in a team led by Eman Mohamed to build two major apps:
+<ul>
+<li>Tuko App</li>
+<li>Basket Ball App</li>
+<li>Tune App</li>
+
+</ul>
+ </li>
+       <li>Wrote Clean code </li>
+ 
+      </ul>
+    </td>
+  </tr>
+</table>
+<table border="1" width="100%" cellpadding="10">
+  <tr>
+    <td>
+      <h3>Contact Me</h3>
+       <form>
+      <p>Name:<br>
+      <input type="text" name="name"></p>
+
+      <p>Email:<br>
+      <input type="email" name="email"></p>
+
+      <p>Message:<br>
+      <textarea name="message" rows="5" cols="30"></textarea></p>
+
+      <p><input type="submit" value="Send"></p>
+    </form>
+ 
+      </ul>
+    </td>
+  </tr>
+</table>
   </body>
 </html>
