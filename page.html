@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eman's Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #000000, #4b3b9a, #a8a7f0);
+      color: white;
+      scroll-behavior: smooth;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #000;
+      padding: 10px 40px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .nav-links a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .cv-button {
+      background: linear-gradient(to right, #ff66cc, #ff99cc);
+      padding: 8px 16px;
+      border: none;
+      border-radius: 20px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .hero {
+      padding-top: 150px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #e0e0e0;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+      text-align: left;
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 15px;
+      margin-top: 30px;
+    }
+
+    h2 {
+      border-bottom: 2px solid white;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    form input[type="submit"] {
+      background-color: #ff66cc;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <div class="nav-links">
+      <a href="#about">About</a> |
+      <a href="#skills">Skills</a> |
+      <a href="#experience">Experience</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="#" class="cv-button">Download my CV</a>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <p>Hello to</p>
+    <h1>Eman's Portfolio</h1>
+  </div>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Eman Mohamed. I am a passionate Mobile Development student learning Dart, OOP, and Flutter.</p>
+    <p><i>"Learning never exhausts the mind." – Leonardo da Vinci</i></p>
+    <h3>Personal Info</h3>
+    <p><strong>Name:</strong> Eman Mohamed</p>
+    <p><strong>Job Title:</strong> Flutter Developer</p>
+    <p><strong>Location:</strong> Egypt</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Dart & Flutter</li>
+      <li>OOP Concepts</li>
+      <li>C++</li>
+      <li>Problem Solving with Dart</li>
+    </ul>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <h3>🎓 Mobile Developer Intern (2024)</h3>
+    <ul>
+      <li>Built real world Flutter applications in a professional internship environment.</li>
+      <li>Worked in a team led by Eman Mohamed to build two major apps:
+        <ul>
+          <li>Tuko App</li>
+          <li>Basket Ball App</li>
+          <li>Tune App</li>
+        </ul>
+      </li>
+      <li>Wrote clean and maintainable code.</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <h4>1. Tuko App</h4>
+    <p>My very first app using Flutter. Helps in learning Japanese language.</p>
+    <a href="project.html" style="color: #ffddee;">View Project</a>
+
+    <h4>2. Basket Ball App</h4>
+    <p>A simple app that counts goals for two teams.</p>
+
+    <h4>3. Tune App</h4>
+    <p>Simple app to listen to different tunes.</p>
+
+    <h4>4. News App (in progress)</h4>
+    <p>Fetching and displaying news from an API.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label>Name:</label><br>
+      <input type="text" name="name"><br>
+
+      <label>Email:</label><br>
+      <input type="email" name="email"><br>
+
+      <label>Message:</label><br>
+      <textarea name="message" rows="5"></textarea><br>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+</body>
+</html>
